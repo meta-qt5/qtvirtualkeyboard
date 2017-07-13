@@ -24,6 +24,7 @@
 // Debug performance for operations
 // #define ___DEBUG_PERF___
 
+#include <sys/time.h>
 #ifdef _WIN32
 #include <time.h>
 #include <winsock.h> // timeval
